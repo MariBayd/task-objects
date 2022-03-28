@@ -1,5 +1,6 @@
 {
     "name": "task-objects",
+    "type": "module",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
@@ -9,7 +10,7 @@
         "@types/react-dom": "^17.0.0",
         "react": "^17.0.2",
         "react-dom": "^17.0.2",
-        "react-scripts": "4.0.3",
+        "react-scripts": "^5.0.0",
         "typescript": "^4.1.2"
     },
     "scripts": {
@@ -37,6 +38,7 @@
     },
     "devDependencies": {
         "husky": "^7.0.0",
+        "jest-watch-typeahead": "^0.6.5",
         "prettier": "^2.4.1",
         "pretty-quick": "^3.1.1"
     }
